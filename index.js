@@ -1,10 +1,24 @@
 const express = require("express");
 const { google } = require("googleapis");
 const cors = require("cors")
+const axios = require('axios');
 const app = express();
 app.use(express.json())
 app.use(cors());
 const port = process.env.PORT || 3000;
+
+
+// Function to create a delay for a specified number of minutes
+function delay(minutes) {
+    return new Promise(resolve => setTimeout(resolve, minutes * 60 * 1000));
+}
+
+// Make Free Server Allways Active
+async function keepAlive() {
+    const speek = await axios.get(`https://findplant.onrender.com`)
+    await delay(14);
+    keepAlive();
+}
 
 
 app.post("/spreedsheet/contact", async (req, res) => {
