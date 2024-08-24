@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.post("/spreedsheet/contact", async (req, res) => {
   const { date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent } = req.body;
 
-
+const currentLocation = `https://www.google.com/maps/place/${latitude}+${longitude}`;
   const auth = new google.auth.GoogleAuth({
     credentials: {
       private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'), // Replace escaped newlines with actual newlines
@@ -40,7 +40,7 @@ app.post("/spreedsheet/contact", async (req, res) => {
     range: "LocationTrack!A:B",
     valueInputOption: "USER_ENTERED",
     resource: {
-      values: [[date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent]],
+      values: [[date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent, currentLocation]],
     },
   });
 
