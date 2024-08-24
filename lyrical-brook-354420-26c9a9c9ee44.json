@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "lyrical-brook-354420",
+  "private_key_id": "26c9a9c9ee44165ede7a28a424d3c0f41e6c9eb3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9S9AmOzqipDfF\nfrPszHaOp2mWN7k4wWiZQ45iimLEjtnyGFPoLiP9Sx0R9co380+RYslKjWSoBL6l\ngHxqfBYEKBtL/0lAawAF4zgVHxxiKM8cf4TWIvO8SKeygorIQ6kH4BfC8dY9VD6Q\nKPGS7AVZqh5vAZcncm43alUeVcbVZMmC/f9caikLrEcCnuTEq7y5lEFq9PBRsqUZ\nM1JsB6Dnis8U8VoMcroOTZNNadmx0SyH0L374ea8xetzktTZukXQNPyYbhLcAhF8\nOfi7kC69yDtFSil+qfLHpMkBaO0OwVE2P58TxfI8yMHCXiUZOxakKs4ypa87vjyN\nNUGvd76HAgMBAAECggEAHdLzhQqA5v4TkWiwhWcDaN9kidfWtWP3jGox5UGjZQ+S\ntAt0MNkQL4ilmF5O0XjiuOfFChtz1+sDdITlVUuelmIRRux+SIlzM/pELEO+D5MZ\naoaG0cwo9anGzh+2KO5ME+MRK1Q56mi7ALCKuxi3kRR1/gxUmdD0H4P/zCs8jAMz\nDrWf+KjOUiEiGtwnmwm3FKuQJCSrdJyRNbcc2teubUKsak6N9P88WQirk/NmhgqF\nIyOtOh32UTgbBok0um5kqdO7z+uJYiJau1m1eYINX89WIBfLG/wIhb+KWpKVR/rx\nQnUNX3y4Uev5HpF213tlwAOZ1pvE6i23+pD43SkrMQKBgQDt+fHdKbax7r35dh6B\nOej9Xcne4NnTq5p+U1vVbXLkst8AVD/TTXiTv9r0M2Gi+TMmHTRvdvsqrcQRKkCX\nZ4YOJoBCHSO4l4zrOFZ8FA/7YSulw9TSyAKdAlweBAGpGxrHJVrM3GAWQxH+8ntw\neNr8EbTrwSJ1OQlWsN/YJX5ptwKBgQDLogWVcPMI9ZkSO1XR8+y06UF7k0WHv17H\nWZmXQFfvo+cCSRFrSVePofy9jo9GMYTq8R39YHacJULHihZSO0wBA4I77AckyOIq\n5Xp32fqIO0jfQRKusmkXkgkCaDm8mvK1t27ZEhgzNMBK+V/jOemWak/bEx9/CRmU\nDJT+4FCRsQKBgEJs0uMNwq4V2rcoDkm51Vvrcu6gSoz3yE7ci7SeMUS+3Nolqg8b\n/70V/1LMiMNJ1cocuscmKeN2z1SPO6pHPjby7jgGFDNxMedyOUm2++MJ83n4mI4h\nQAF9aCMEsUX3h9jwh1DJbpSoMfy8yFHTmiRj+OEZbrnTqtSk2EZn6MovAoGBALuB\nvviD4Bbg6Amkv3qrzMwteVHMI5tDOYgBVm+zHQYae65cEAElsM4e0DbQHdf54zXf\nvsjA2ZcgrGRHIBSqa2sHixWYWl+h5rivRF02R/7H8Gs7ZXOd7y14GHmx9XBZkaKI\nfTa+9a+5JFQlWwlGG3SZAl1tN3Rnsbjk+RHVBfuRAoGAHqZh4mSM9wvehET8TzXB\nmKKTMfPsNyhI6lrvGnu9zdCG+df9FcjghXWN2SVKWH9DPpY8R/LNsam0kO+mp6Kg\nV+IQE2Zd85LCjkmY6aaO/V8ijUbzDi8tHBmVJztHgKARjGRq07sqdiFjMzqCBic4\nm2TItLGdg0FDMkMCdufYbuw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "id-ndifecontact@lyrical-brook-354420.iam.gserviceaccount.com",
+  "client_id": "114413303778993504429",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-ndifecontact%40lyrical-brook-354420.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
