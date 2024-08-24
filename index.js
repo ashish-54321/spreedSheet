@@ -25,6 +25,7 @@ app.post("/spreedsheet/contact", async (req, res) => {
   const { date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent } = req.body;
 
 const currentLocation = `https://www.google.com/maps/place/${latitude}+${longitude}`;
+    const aproxLocation= `https://whatismyipaddress.com/ip/${ip}`
   const auth = new google.auth.GoogleAuth({
     credentials: {
       private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'), // Replace escaped newlines with actual newlines
@@ -54,7 +55,7 @@ const currentLocation = `https://www.google.com/maps/place/${latitude}+${longitu
     range: "LocationTrack!A:B",
     valueInputOption: "USER_ENTERED",
     resource: {
-      values: [[date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent, currentLocation]],
+      values: [[date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent, currentLocation, aproxLocation]],
     },
   });
 
