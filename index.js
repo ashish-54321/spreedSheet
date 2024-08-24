@@ -4,6 +4,7 @@ const cors = require("cors")
 const app = express();
 app.use(express.json())
 app.use(cors());
+const port = process.env.PORT || 3000;
 
 
 app.post("/spreedsheet/contact", async (req, res) => {
@@ -49,4 +50,6 @@ app.post("/spreedsheet/contact", async (req, res) => {
 
 
 
-app.listen(1337, (req, res) => console.log("running on 1337"));
+app.listen(port, "0.0.0.0", () => {
+    console.log(`Server listening at http://0.0.0.0:${port}`);
+});
