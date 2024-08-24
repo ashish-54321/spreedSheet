@@ -7,6 +7,10 @@ app.use(express.json())
 app.use(cors());
 const port = process.env.PORT || 3000;
 
+app.get("/", (req, res) => {
+    res.send("Api's Now Live By Ashish Tiwari");
+});
+
 
 // Function to create a delay for a specified number of minutes
 function delay(minutes) {
