@@ -15,7 +15,7 @@ function delay(minutes) {
 
 // Make Free Server Allways Active
 async function keepAlive() {
-    const speek = await axios.get(`https://findplant.onrender.com`)
+    const speek = await axios.get(`https://spreedsheet-63ux.onrender.com`)
     await delay(14);
     keepAlive();
 }
