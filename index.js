@@ -11,7 +11,10 @@ app.post("/spreedsheet/contact", async (req, res) => {
 
 
   const auth = new google.auth.GoogleAuth({
-    keyFile: "credentials.json",
+    credentials: {
+      private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'), // Replace escaped newlines with actual newlines
+      client_email: "ashishsheet@digital-vim-411607.iam.gserviceaccount.com",
+    },
     scopes: "https://www.googleapis.com/auth/spreadsheets",
   });
 
