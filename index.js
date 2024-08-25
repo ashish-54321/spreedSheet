@@ -20,7 +20,7 @@ function delay(minutes) {
 // Make Free Server Allways Active
 async function keepAlive() {
     const speek = await axios.get(`https://spreedsheet-63ux.onrender.com`)
-    await delay(7);
+    await delay(14);
     keepAlive();
 }
 
@@ -68,7 +68,7 @@ const currentLocation = `https://www.google.com/maps/place/${latitude}+${longitu
 
 
 
-
+keepAlive();//Alive Server use for Free Plan in Render
 app.listen(port, "0.0.0.0", () => {
     console.log(`Server listening at http://0.0.0.0:${port}`);
 });
