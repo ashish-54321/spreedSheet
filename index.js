@@ -20,7 +20,7 @@ function delay(minutes) {
 // Make Free Server Allways Active
 async function keepAlive() {
     const speek = await axios.get(`https://spreedsheet-63ux.onrender.com`)
-    await delay(14);
+    await delay(7);
     keepAlive();
 }
 
@@ -29,7 +29,7 @@ app.post("/spreedsheet/contact", async (req, res) => {
   const { date, time, user, ip, system, browser, device, model, latitude, longitude, country, region, city, timezone, userAgent } = req.body;
 
 const currentLocation = `https://www.google.com/maps/place/${latitude}+${longitude}`;
-    const aproxLocation= `https://whatismyipaddress.com/ip/${ip}`;
+    const aproxLocation= `https://iplocation.io/ip/${ip}`;
   const auth = new google.auth.GoogleAuth({
     credentials: {
       private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'), // Replace escaped newlines with actual newlines
